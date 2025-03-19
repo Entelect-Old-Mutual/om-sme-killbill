@@ -1,7 +1,7 @@
 FROM maven:3.8.4-openjdk-11 AS build
 
 # Clone your forked repository
-ARG KILLBILL_REPO=https://github.com/your-organization/killbill.git
+ARG KILLBILL_REPO=https://github.com/Entelect-Old-Mutual/om-sme-killbill.git
 ARG KILLBILL_BRANCH=master
 
 WORKDIR /app
